@@ -25,8 +25,8 @@ const DisplayCards = () => {
   return (
     <div>
         <Cards {...data1} mode = "yellow"/>
-        <Cards {...data1}/>
-        <Cards {...data2}/>
+        <Cards {...data1} mode = "yellow"/>
+        <Cards {...data2} mode = "gray"/>
       
     </div>
   )
