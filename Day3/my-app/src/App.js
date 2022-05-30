@@ -1,6 +1,8 @@
 
 import './App.css';
-import DisplayCards from './Que3/DisplayCards';
+import Todo from './Que2/Todo';
+//import TodoItem from './Que2/TodoItem';
+//import DisplayCards from './Que3/DisplayCards';
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
   return (
     <div className="App">
      
-  <DisplayCards/>
+  {/* <DisplayCards/> */}
+   <Todo/>
     </div>
   );
 }
